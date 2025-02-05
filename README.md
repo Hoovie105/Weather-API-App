@@ -61,4 +61,4 @@ This project is open-source and available under the MIT License.
 
 ## Author
 
-Hoovie105 - [GitHub Profile]https://github.com/Hoovie105/
+Hoovie105 - https://github.com/Hoovie105/
