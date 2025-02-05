@@ -2,6 +2,7 @@ import sys
 import requests
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
 
 class WeatherApp(QWidget):
     def __init__(self):
@@ -16,6 +17,7 @@ class WeatherApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("Weather App")
+        self.setWindowIcon(QIcon('weather-icon-size_24.png'))
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.city_label)
